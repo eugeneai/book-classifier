@@ -22,6 +22,11 @@ def normalize(tokens):
 def normalize_t(tokens):
     return [normalize_token(t) for t in tokens]
 
+def is_stop_word(token):
+    """Determines that token is a
+    stop word.
+    """
+
 def get_kw(tokens):
     kw=[]
 
